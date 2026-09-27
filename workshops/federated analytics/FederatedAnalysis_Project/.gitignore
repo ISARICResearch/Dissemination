@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv/
+
+# PyCharm project files
+.idea/
+
+# Python bytecode / package artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/

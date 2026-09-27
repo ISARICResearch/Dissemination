@@ -1,0 +1,356 @@
+{
+  "record_id": {
+    "description": null,
+    "possible_values": null,
+    "data_type": "str",
+    "category": "Identification"
+  },
+  "consultation_date": {
+    "description": "Consultation Date",
+    "possible_values": null,
+    "data_type": "datetime64[us]",
+    "category": "Date"
+  },
+  "symptom_onset_date": {
+    "description": "Symptom Onset Date",
+    "possible_values": null,
+    "data_type": "datetime64[us]",
+    "category": "Date"
+  },
+  "hospitalization_date": {
+    "description": "Hospitalization Date",
+    "possible_values": null,
+    "data_type": "datetime64[us]",
+    "category": "Date"
+  },
+  "death_date": {
+    "description": "Death Date",
+    "possible_values": null,
+    "data_type": "datetime64[us]",
+    "category": "Date"
+  },
+  "age": {
+    "description": "Age",
+    "possible_values": null,
+    "data_type": "int64",
+    "category": "Demographic"
+  },
+  "sex": {
+    "description": "Sex",
+    "possible_values": [
+      "Female",
+      "Male"
+    ],
+    "data_type": "string",
+    "category": "Demographic"
+  },
+  "tissue_sample_taken": {
+    "description": "Tissue samples were taken",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "liver_sample": {
+    "description": "Tissues - Liver",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "spleen_sample": {
+    "description": "Tissues - Spleen",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "lung_sample": {
+    "description": "Tissues - Lung",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "brain_sample": {
+    "description": "Tissues - Brain",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "myocardium_sample": {
+    "description": "Tissues - Myocardium",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "bone_marrow_sample": {
+    "description": "Tissues - Bone marrow",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "kidney_sample": {
+    "description": "Tissues - Kidney",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Exam"
+  },
+  "institution": {
+    "description": "Legal name or name of the UPGD [Unidad Primaria Generadora de Datos / Primary Data-Generating Unit]",
+    "possible_values": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5"
+    ],
+    "data_type": "str",
+    "category": "Institution"
+  },
+  "final_classification": {
+    "description": "Final Classification",
+    "possible_values": [
+      "Dengue with warning signs",
+      "Dengue without warning signs",
+      "Severe dengue"
+    ],
+    "data_type": "string",
+    "category": "Medical Care"
+  },
+  "hospitalized": {
+    "description": "Hospitalized",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Medical Care"
+  },
+  "outcome": {
+    "description": "Final condition",
+    "possible_values": [
+      "Alive",
+      "Dead"
+    ],
+    "data_type": "string",
+    "category": "Medical Care"
+  },
+  "fever": {
+    "description": "Semiological findings - Fever",
+    "possible_values": [
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "myalgia": {
+    "description": "Semiological findings - Myalgia",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "arthralgia": {
+    "description": "Semiological findings - Arthralgia",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "headache": {
+    "description": "Semiological findings - Headache",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "retro_orbital_pain": {
+    "description": "Semiological findings - Retro-orbital pain",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "abdominal_pain": {
+    "description": "Semiological findings - Abdominal pain",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "vomiting": {
+    "description": "Semiological findings - Vomiting",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "diarrhea": {
+    "description": "Semiological findings - Diarrhea",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "rash": {
+    "description": "Semiological findings - Rash",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "petechiae": {
+    "description": "Semiological findings - Petechiae",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "mucosal_bleeding": {
+    "description": "Semiological findings - Mucosal bleeding",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "shock": {
+    "description": "Semiological findings - Shock",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "postural_hypotension": {
+    "description": "Semiological findings - Postural hypotension (lipothymia)",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "hypothermia": {
+    "description": "Semiological findings - Hypothermia",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "lethargy": {
+    "description": "Semiological findings - Lethargy or irritability",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "hepatomegaly": {
+    "description": "Semiological findings - Hepatomegaly (>2cm below the costal margin)",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "platelet_drop": {
+    "description": "Semiological findings - Platelet drop",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "fluid_accumulation": {
+    "description": "Semiological findings - Fluid accumulation",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "hematocrit_increase": {
+    "description": "Semiological findings - Progressive increase in hematocrit",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "plasma_leakage": {
+    "description": "Semiological findings - Severe plasma leakage",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "severe_bleeding": {
+    "description": "Semiological findings - Severe bleeding",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  },
+  "organ_damage": {
+    "description": "Semiological findings - Severe organ damage",
+    "possible_values": [
+      "No",
+      "Yes"
+    ],
+    "data_type": "string",
+    "category": "Symptom"
+  }
+}
