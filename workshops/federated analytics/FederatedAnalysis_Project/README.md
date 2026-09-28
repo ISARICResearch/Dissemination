@@ -24,7 +24,7 @@ Each one covers a specific type of analysis:
 | `01_eda.ipynb` | **Exploratory data analysis (EDA):** dataset structure, variable definitions, data quality (missing values), and distribution of key variables overall and by institution. |
 | `02_descriptive_analysis.ipynb` | **Descriptive statistics:** mean, standard deviation, median and quartiles for continuous variables, and frequencies for categorical variables. |
 | `03_odds_ratios.ipynb` | **Risk factor analysis:** univariate logistic regression for mortality, reporting odds ratios with 95% confidence intervals and p-values. |
-| `04_survival_analysis.ipynb` | **Survival analysis:** Kaplan-Meier estimates and Cox proportional hazards models (hazard ratios). |
+| `04_survival_analysis.ipynb` | **Survival analysis:** Kaplan-Meier survival probabilities by age group and a univariate Cox proportional hazards model (hazard ratio), over a 30-day follow-up. |
 | `05_prediction.ipynb` | **Clinical prediction model:** multivariable logistic regression with L2 (Ridge) regularization to predict mortality, tuned by cross-validation and evaluated on a held-out test set (AUC, recall, precision, F1 score and accuracy). |
 
 ## Project structure
@@ -38,6 +38,7 @@ Each one covers a specific type of analysis:
 │   ├── eda.py
 │   ├── descriptive_analysis.py
 │   ├── odds_ratios.py
+│   ├── survival_analysis.py
 │   └── prediction.py
 └── notebooks/
     ├── 01_eda.ipynb
