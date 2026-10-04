@@ -80,9 +80,57 @@ type and possible values.
 
 ### Google Colab (recommended)
 
-Open a notebook with its **Open in Colab** badge. Only a Google account is
-needed. The notebook's setup section clones this repository to get the data and
-`analysis_lib`, and installs any package that Colab doesn't provide.
+The notebooks can be run entirely in the browser with Google Colab, with no
+installation. Only a Google account is needed (a GitHub account isn't).
+
+**Open a notebook from GitHub**
+
+1. Go to the project's repository:
+   https://github.com/ISARICResearch/Dissemination/tree/main/workshops/federated%20analytics/FederatedAnalysis_Project
+2. Click the `notebooks` folder.
+3. Click the notebook you want to open (e.g. `01_eda.ipynb`). GitHub shows a
+   preview of it; if it shows an error instead, reload the page.
+4. At the top of the notebook, below the title and the line "Dengue federated
+   analysis workshop.", find the **Open in Colab** button.
+5. Click the button. The notebook opens in Google Colab in a new tab.
+6. If you aren't signed in, click **Sign in** (top right) and sign in with your
+   Google account.
+
+**Open a notebook directly in Colab**
+
+You can also skip steps 1 to 5 and open each notebook in Colab with the
+following links:
+
+| Notebook | Open in Colab |
+|---|---|
+| `01_eda.ipynb` | [Open](https://colab.research.google.com/github/ISARICResearch/Dissemination/blob/main/workshops/federated%20analytics/FederatedAnalysis_Project/notebooks/01_eda.ipynb) |
+| `02_descriptive_analysis.ipynb` | [Open](https://colab.research.google.com/github/ISARICResearch/Dissemination/blob/main/workshops/federated%20analytics/FederatedAnalysis_Project/notebooks/02_descriptive_analysis.ipynb) |
+| `03_odds_ratios.ipynb` | [Open](https://colab.research.google.com/github/ISARICResearch/Dissemination/blob/main/workshops/federated%20analytics/FederatedAnalysis_Project/notebooks/03_odds_ratios.ipynb) |
+| `04_survival_analysis.ipynb` | [Open](https://colab.research.google.com/github/ISARICResearch/Dissemination/blob/main/workshops/federated%20analytics/FederatedAnalysis_Project/notebooks/04_survival_analysis.ipynb) |
+| `05_prediction.ipynb` | [Open](https://colab.research.google.com/github/ISARICResearch/Dissemination/blob/main/workshops/federated%20analytics/FederatedAnalysis_Project/notebooks/05_prediction.ipynb) |
+
+**Run the notebook**
+
+7. Run all the cells with **Runtime → Run all**, or one by one from the top by
+   clicking the ▶ button at the left of each cell (or pressing `Shift + Enter`).
+   Cells must be run in order, since each one uses the results of the previous
+   ones.
+8. When running the first cell, Colab shows the warning "This notebook was not
+   authored by Google". Click **Run anyway**.
+9. The first cells (section 1, Setup) download the project's data and code into
+   Colab, and install any package that Colab doesn't provide. This takes a few
+   seconds and only happens once per session.
+10. Each cell's result (tables, plots, messages) appears right below it. Read the
+    text between the cells to follow the analysis step by step.
+
+**Good to know**
+
+- Changes you make in Colab aren't saved in the repository. To keep your own
+  copy, use **File → Save a copy in Drive**.
+- If something fails or you want to start over, use **Runtime → Disconnect and
+  delete runtime**, then **Runtime → Run all** again.
+- If Colab is displayed in another language, the menu names above appear
+  translated (e.g. **Entorno de ejecución → Ejecutar todas** in Spanish).
 
 ### Local
 
